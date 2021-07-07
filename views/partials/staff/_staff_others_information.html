@@ -1,0 +1,196 @@
+<div class="card">
+    <div class="card-block edited-padding-for-this-navbar">
+        <div class="row">
+            <div class="col-lg-12 col-xl-12">
+                <ul class="nav nav-tabs tabs" role="tablist">
+                    <li class="nav-item active">
+                        <a class="nav-link nav_tabs" data-toggle="tab" aria-controls="visa" href="#visa">Vize Bilgisi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_tabs" data-toggle="tab" aria-controls="passport" href="#passport">Pasaport
+                            Bilgisi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_tabs" data-toggle="tab" aria-controls="brief" href="#brief">Evrak Bilgisi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_tabs" data-toggle="tab" aria-controls="debit" href="#debit">Zimmet Bilgileri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav_tabs" data-toggle="tab" aria-controls="bank" href="#bank">Banka Bilgileri</a>
+                    </li>
+                </ul>
+                <div class="tab-content tabs card-block edited-padding-for-this-navbar">
+                    <div class="tab-pane active" id="visa">
+                        <div class="card">
+                            <div class="card-header padding-bottom-zero">
+                                <h5 class="h5">Vize Bilgisi</h5>
+                                <!-- <span>use class <code>table-hover</code> inside table element</span> -->
+                                <button data-toggle="modal" data-target="#myModal" data-toggle="modal" data-target="#myModal" style="float:right;" type="button" class="btn btn-success">Yeni Ekle</button>
+                            </div>
+                            <div class="card-block table-border-style">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Talep Tarihi</th>
+                                                <th>Vize Tipi</th>
+                                                <th>Vize Numarası</th>
+                                                <th>Vize Veriliş Tarihi</th>
+                                                <th>Vize Başlangıç Tarihi</th>
+                                                <th>Vize Bitiş Tarihi</th>
+                                                <th>Gidilecek Ülke</th>
+                                                <th>Onay Süreci</th>
+                                                <th>Durum</th>
+                                                <th>İşlem</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Nottamun Town</td>
+                                                <td>Fen</td>
+                                                <td>Fen</td>
+                                                <td>İngiltere</td>
+                                                <td>İngiltere</td>
+                                                <td>Fen</td>
+                                                <td>Nottamun Town</td>
+                                                <td>Fen</td>
+                                                <td>Fen</td>
+                                                <td>
+                                                    <i data-toggle="modal" data-target="#editableModal" class="fa fa-edit datatable-edit datatable-button"></i>
+                                                    <i data-toggle="modal" data-target="#removeModal" class="fa fa-times datatable-edit datatable-button"></i>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="passport">
+                        <div class="card">
+                            <div class="card-header padding-bottom-zero">
+                                <h5 class="h5">Pasaport Bilgisi</h5>
+                                <!-- <span>use class <code>table-hover</code> inside table element</span> -->
+                                <button data-toggle="modal" data-target="#myModal" style="float:right;" type="button" class="btn btn-success">Yeni Ekle</button>
+                            </div>
+                            <div class="card-block table-border-style">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Pasaport No</th>
+                                                <th>Yer</th>
+                                                <th>Ülke</th>
+                                                <th>Şehir</th>
+                                                <th>Verildiği Tarih</th>
+                                                <th>Geçerlilik Tarihi</th>
+                                                <th>İşlem</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Nottamun Town</td>
+                                                <td>Fen</td>
+                                                <td>Fen</td>
+                                                <td>İngiltere</td>
+                                                <td>İngiltere</td>
+                                                <td>Fen</td>
+                                                <td>
+                                                    <i data-toggle="modal" data-target="#editableModal" class="fa fa-edit datatable-edit datatable-button"></i>
+                                                    <i data-toggle="modal" data-target="#removeModal" class="fa fa-times datatable-edit datatable-button"></i>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="brief">
+                        <div class="card">
+                            <div class="card-header padding-bottom-zero">
+                                <h5 class="h5">Evrak Bilgisi</h5>
+                                <!-- <span>use class <code>table-hover</code> inside table element</span> -->
+                                <button data-toggle="modal" data-target="#myModal" style="float:right;" type="button" class="btn btn-success">Yeni Ekle</button>
+                            </div>
+                            <div class="card-block table-border-style">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Dosya Adı</th>
+                                                <th>Dosya Yolu</th>
+                                                <th>Döküman Tipi</th>
+                                                <th>Başlangıç Tarihi</th>
+                                                <th>Bitiş Tarihi</th>
+                                                <th>İşlem</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Nottamun Town</td>
+                                                <td>Fen</td>
+                                                <td>Fen</td>
+                                                <td>Fen</td>
+                                                <td>Fen</td>
+                                                <td>
+                                                    <i data-toggle="modal" data-target="#editableModal" class="fa fa-edit datatable-edit datatable-button"></i>
+                                                    <i data-toggle="modal" data-target="#removeModal" class="fa fa-times datatable-edit datatable-button"></i>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="bank">
+                        <div class="card">
+                            <div class="card-header padding-bottom-zero">
+                                <h5 class="h5">Banka Bilgileri</h5>
+                                <!-- <span>use class <code>table-hover</code> inside table element</span> -->
+                                <button data-toggle="modal" data-target="#myModal" style="float:right;" type="button" class="btn btn-success">Yeni Ekle</button>
+                            </div>
+                            <div class="card-block table-border-style">
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Banka Adı</th>
+                                                <th>Şube</th>
+                                                <th>Hesap Numarası</th>
+                                                <th>IBAN</th>
+                                                <th>İşlem</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Nottamun Town</td>
+                                                <td>Fen-Edebiyat</td>
+                                                <td>Matematik</td>
+                                                <td>İngiltere</td>
+                                                <td>
+                                                    <i data-toggle="modal" data-target="#editableModal" class="fa fa-edit datatable-edit datatable-button"></i>
+                                                    <i data-toggle="modal" data-target="#removeModal" class="fa fa-times datatable-edit datatable-button"></i>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

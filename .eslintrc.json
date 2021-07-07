@@ -1,0 +1,65 @@
+{
+  "extends": [
+    "recommended/node",
+    "plugin:prettier/recommended",
+    "plugin:import/react"
+  ],
+  "rules": {
+    "comma-dangle": ["warn", "only-multiline"],
+    "no-unused-vars": ["error", { "vars": "all", "args": "none", "ignoreRestSiblings": false }],
+    "camelcase": "off",
+    "object-shorthand": "off",
+    "guard-for-in": "warn",
+    "arrow-body-style": "off",
+    "consistent-return": "warn",
+    "no-throw-literal": "warn",
+    "quote-props": "off",
+    "new-cap": "off",
+    "default-case": "off",
+    "no-empty": "warn",
+    "curly": "off",
+    "padded-blocks": "off",
+    "no-use-before-define": "warn",
+    "no-param-reassign": ["error", { "props": false }],
+    "max-len": "off",
+    "no-underscore-dangle": "off",
+    "strict": "off",
+    "global-require": "off",
+    "no-restricted-syntax": "off",
+    "no-multi-spaces": "off",
+    "spaced-comment": "off",
+    "no-trailing-spaces": "off",
+    "key-spacing": "off",
+    "func-names": "off",
+    "no-empty-function": "off",
+    "no-console": "warn",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-commonjs": "off",
+    "import/no-nodejs-modules": "off",
+    "no-sync": "off",
+    "eqeqeq": "off",
+    "require-yield": "off",
+    "class-methods-use-this": "off",
+    "prettier/prettier": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  },
+  "env": {
+    "jest": true,
+    "browser": true,
+    "jquery": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  },
+  "plugins": ["react", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}

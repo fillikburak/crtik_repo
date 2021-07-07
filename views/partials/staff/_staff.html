@@ -1,0 +1,61 @@
+<!--profile cover start-->
+<div class="row">
+  <div class="col-lg-12">
+    <div class="cover-profile">
+      <div class="profile-bg-img">
+        <img
+          class="profile-bg-img img-fluid"
+          src="../../assets/images/auth/bg-img1.jpg"
+          alt="bg-img"
+        />
+        <div class="card-block user-info">
+          <div class="col-md-12">
+            <div class="media-left">
+              <a href="#" class="profile-image">
+                <img
+                  class="user-img img-radius"
+                  src="../../assets/images/auth/user-img.jpg"
+                  alt="user-img"
+                />
+              </a>
+            </div>
+            <div class="media-body row">
+              <div class="col-lg-12">
+                <div class="user-title">
+                  <h2 id="admin-name">Josephin Villa</h2>
+                  <span class="text-white">Web designer</span>
+                </div>
+              </div>
+              <div>
+                <div class="pull-right cover-btn">
+                  <button type="button" class="btn btn-success">Mesaj</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--profile cover end-->
+<div class="row">
+  <div class="col-lg-12">
+    <!-- tab header start -->
+    <div class="tab-header card staff-header"></div>
+    <!-- tab header end -->
+    <!-- tab content start -->
+    <div class="tab-content staff-body"></div>
+    <!-- tab content end -->
+  </div>
+</div>
+<div id="styleSelector"></div>
+
+<!-- <script type="text/javascript" src="..\Scripts\Home\accordion.js"></script> -->
+<script>
+  $(".staff-header").load("file:///views/partials/staff/_staff_header.html");
+  $(".staff-body").load(
+    "file:///views/partials/staff/_staff_global_information.html"
+  );
+</script>
+<!-- <script src="../../../scripts/database/test.js"></script> -->

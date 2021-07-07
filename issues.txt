@@ -1,0 +1,6 @@
+- Proje başlatıldığı zaman titlebar draggable oluyor fakat çalışanlar sekmesi açıldıktan sonra drag özelliği sadece sol 
+köşede var diğer yerleri tutarak drag yapılamıyor.
+
+- Proje tamamlandığı zaman style-not-min.css dosyası sıkıştırılıp min dosyasına dönüştürülecek
+
+- Yeni Eklenen Scripts ve Css dosyalarını düzenli şekilde klasörledim. Eskileride güncellemek gerekiyor.

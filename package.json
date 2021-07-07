@@ -1,0 +1,35 @@
+{
+  "name": "cratosik",
+  "version": "1.0.0",
+  "description": "Cratos IK Desktop Application",
+  "main": "main.js",
+  "private": true,
+  "author": "Electronian",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://nurullah_turkyilmaz@bitbucket.org/electronian/crtik_repo.git"
+  },
+  "dependencies": {
+    "electron": "^4.0.4",
+    "less": "^3.9.0",
+    "lodash.includes": "^4.3.0",
+    "mssql": "^4.3.0",
+    "node-linq": "0.0.5",
+    "underscore": "^1.9.1",
+    "winston": "^3.2.1"
+  },
+  "homepage": "https://bitbucket.org/electronian/crtik_repo#readme",
+  "devDependencies": {
+    "electron": "^4.0.4",
+    "less": "^3.9.0",
+    "lodash.includes": "^4.3.0",
+    "mssql": "^4.3.0",
+    "node-linq": "0.0.5",
+    "underscore": "^1.9.1",
+    "winston": "^3.2.1"
+  }
+}

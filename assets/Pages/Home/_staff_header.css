@@ -1,0 +1,18 @@
+
+  /* arrow common style */
+  .arrow {
+	margin-top: 15.5px;
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	border-top: 1.7px solid #000;
+	border-right: 1.7px solid #000;
+  }
+
+  .arrow-bottom {
+  transform: rotate(135deg);
+}
+
+.nav-item-left{
+	padding-left: 10px;
+}
